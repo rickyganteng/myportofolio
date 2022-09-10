@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "namaPerusahaan": "Comodo Matic Decentralized",
+    "AwalMasuk": "2021-10-01",
+    "AkhirMasuk": "2021-11-30",
+    "HalyangDilakukan": [
+      "Membuat Landing Page Profile Perusahaan",
+      "Menggunakan CSS Framework Bootstrap, Slider",
+      "Menghubungkan API CoinGecko, Moralis.io"
+    ]
+  },
+  {
+    "id": 2,
+    "namaPerusahaan": "PT Sangkuriang Internasional",
+    "AwalMasuk": "2021-12-01",
+    "AkhirMasuk": "2022-03-30",
+    "HalyangDilakukan": [
+      "Membuat Page dalam website internal",
+      "Menggunakan CSS Framework MUI",
+      "Menghubungkan API",
+      "Belajar Test Code"
+    ]
+  },
+  {
+    "id": 3,
+    "namaPerusahaan": "Kementerian Kesehatan RI",
+    "AwalMasuk": "2021-05-01",
+    "AkhirMasuk": "Sekarang",
+    "HalyangDilakukan": [
+      "Membuat Tampilan Website Booking Ruang Rapat dan Log Aktivitas",
+      "Menggunakan CSS Framework Bootstrap, MUI",
+      "Membuat API",
+      "Menghubungkan API",
+      "Mendeploy Tampilan dan API pada server menggunakan PM2"
+    ]
+  }
+]
