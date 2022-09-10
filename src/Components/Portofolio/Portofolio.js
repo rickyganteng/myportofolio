@@ -1,4 +1,4 @@
-import { Row, Col, Image } from 'react-bootstrap';
+// import { Row, Col, Image } from 'react-bootstrap';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import JsonExperience from '../Json/experience.json';
@@ -11,7 +11,7 @@ import 'swiper/css/navigation';
 // import required modules
 import { Pagination, Navigation } from 'swiper';
 
-import SsComodo from '../../Components/Assets/comodo.png';
+// import SsComodo from '../../Components/Assets/comodo.png';
 // import style from './Navbar.module.css';
 function Portofolio() {
   console.log(JsonExperience);

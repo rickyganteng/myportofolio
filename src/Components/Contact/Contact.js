@@ -1,4 +1,4 @@
-import { Row, Col, Image, Button, Form } from 'react-bootstrap';
+import { Row, Col, Button, Form } from 'react-bootstrap';
 import { SiGmail, SiLinkedin, SiGithub, SiWhatsapp } from 'react-icons/si';
 import style from './Contact.module.css';
 

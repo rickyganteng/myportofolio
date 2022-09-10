@@ -1,4 +1,4 @@
-import { Row, Col, Image } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import ExperienceData from '../../Components/Json/experience.json';
 // import style from './Navbar.module.css';
 function Experience() {

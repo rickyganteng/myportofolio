@@ -8,7 +8,7 @@ import About from '../../Components/About/About';
 import Contact from '../../Components/Contact/Contact';
 import Portofolio from '../../Components/Portofolio/Portofolio';
 import Experience from '../../Components/Experience/Experience';
-import Svg from '../../Components/53463-modern-laptop.json';
+// import Svg from '../../Components/53463-modern-laptop.json';
 class Home extends Component {
   render() {
     // console.log('weheheh');
