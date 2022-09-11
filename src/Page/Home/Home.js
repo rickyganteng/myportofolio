@@ -8,13 +8,14 @@ import About from '../../Components/About/About';
 import Contact from '../../Components/Contact/Contact';
 import Portofolio from '../../Components/Portofolio/Portofolio';
 import Experience from '../../Components/Experience/Experience';
+import Footer from '../../Components/Footer/Footer';
 // import Svg from '../../Components/53463-modern-laptop.json';
 class Home extends Component {
   render() {
     // console.log('weheheh');
     return (
       <>
-        <Container className={style.Container}>
+        <Container className={`${style.Container}`}>
           <Navbar />
           <h2 className={style.top}>halo, I'm</h2>
           <h1>Ricky Syahputra</h1>
@@ -26,6 +27,9 @@ class Home extends Component {
           <Portofolio />
           <Contact />
           {/* {Svg} */}
+          <div className='mt-5 mb-3'>
+            <Footer />
+          </div>
         </Container>
       </>
     );

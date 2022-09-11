@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "NameWebsite": "Comodo Matic Decentralized",
+    "GambarWebsite": "comodo.png",
+    "LinkWebsite": "https://comodo.finance"
+  },
+  {
+    "id": 2,
+    "NameWebsite": "PT Sangkuriang Internasional",
+    "GambarWebsite": "ericcson.png",
+    "LinkWebsite": "https://digitalprojectmanagement.ericsson.net"
+  },
+  {
+    "id": 3,
+    "NameWebsite": "Booking Ruang Rapat",
+    "GambarWebsite": "ruangrapat.png",
+    "LinkWebsite": "http://ruangrapatp2p.kemkes.go.id"
+  },
+  {
+    "id": 4,
+    "NameWebsite": "Log Aktivitas",
+    "GambarWebsite": "logaktivitas.png",
+    "LinkWebsite": "http://logaktivitasp2p.kemkes.go.id"
+  }
+]
