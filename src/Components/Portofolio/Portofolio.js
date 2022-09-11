@@ -40,7 +40,11 @@ function Portofolio() {
                   <Card.Body>
                     <Card.Title>{item.NameWebsite}</Card.Title>
                     <Card.Subtitle className='mb-2 text-muted'>
-                      <a href={`${item.LinkWebsite}`} target='_blank'>
+                      <a
+                        href={item.LinkWebsite}
+                        target='_blank'
+                        rel='noreferrer'
+                      >
                         {item.LinkWebsite}
                       </a>
                     </Card.Subtitle>
