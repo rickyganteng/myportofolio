@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Oswald:wght@700&display=swap');
+
+.GarisBawah {
+  border-right: 5px black solid;
+  height: 370px;
+  width: 0px;
+  margin-bottom: 300px;
+}
+
+.namaPerusahaan {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.HalyangDilakukan {
+  font-family: 'Kanit', sans-serif;
+  color: rgb(20, 54, 116);
+}
+
+.FontJob {
+  background: -webkit-linear-gradient(
+    left,
+    rgb(6, 250, 148) 0%,
+    rgb(255, 255, 255) 100%
+  );
+  color: transparent;
+  background-clip: text;
+}

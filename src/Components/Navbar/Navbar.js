@@ -15,7 +15,7 @@ function NavbarComp() {
           {/* </Col>
             <Col> */}
           <Nav>
-            <Nav.Link href='#memes'>About</Nav.Link>
+            <Nav.Link href='memes'>About</Nav.Link>
             <Nav.Link href='#deetsd'>Experience</Nav.Link>
             <Nav.Link href='#kontol'>Portofolio</Nav.Link>
             <Nav.Link href='#kontoll'>Contact</Nav.Link>

@@ -1,6 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
 .Container {
-  background: linear-gradient(#15156b, #bcd8fd);
+  background: linear-gradient(#3434cf, #bcd8fd);
 }
 .top {
   margin-top: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.FontName {
+  font-family: 'Oswald', sans-serif;
+  font-size: 60px;
+}
+.ColorWhite {
+  color: rgb(255, 255, 255);
+}
+.FontJob {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  background: -webkit-linear-gradient(
+    left,
+    rgb(6, 161, 250) 0%,
+    rgba(152, 235, 97, 1) 50%,
+    rgb(255, 255, 255) 100%
+  );
+  color: transparent;
+  background-clip: text;
+}
+.Margintop {
+  margin-top: 150px;
 }

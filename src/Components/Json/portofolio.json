@@ -13,13 +13,13 @@
   },
   {
     "id": 3,
-    "NameWebsite": "Booking Ruang Rapat",
+    "NameWebsite": "Booking Ruang Rapat P2P Kemenkes RI",
     "GambarWebsite": "ruangrapat.png",
     "LinkWebsite": "http://ruangrapatp2p.kemkes.go.id"
   },
   {
     "id": 4,
-    "NameWebsite": "Log Aktivitas",
+    "NameWebsite": "Log Aktivitas P2P Kemenkes RI",
     "GambarWebsite": "logaktivitas.png",
     "LinkWebsite": "http://logaktivitasp2p.kemkes.go.id"
   }

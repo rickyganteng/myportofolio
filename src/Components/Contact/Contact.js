@@ -5,8 +5,7 @@ import style from './Contact.module.css';
 function Contact() {
   return (
     <>
-      <h1>Ini COntact</h1>
-      <h3>Send Message</h3>
+      <h1 className='text-center mb-5'>Contact Me</h1>
       <Row>
         <Col>
           <Form>

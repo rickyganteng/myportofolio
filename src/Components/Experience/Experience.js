@@ -1,18 +1,21 @@
 import { Row, Col } from 'react-bootstrap';
 import ExperienceData from '../../Components/Json/experience.json';
-// import style from './Navbar.module.css';
+import style from './Experience.module.css';
+
 function Experience() {
   console.log(ExperienceData);
   return (
     <>
-      <h1>Ini Experience</h1>
-      <h1>Heheheh © </h1>
+      <h1 className='text-center mb-5'>Ini Experience</h1>
+      {/* <h1>Heheheh © </h1> */}
       <Row>
         {ExperienceData.map((item, key) => {
           return (
             <>
               <Col>
-                <p>{item.namaPerusahaan}</p>
+                <p className={`${style.namaPerusahaan} ${style.FontJob}`}>
+                  {item.namaPerusahaan}
+                </p>
                 <p>
                   {item.AwalMasuk} - {item.AkhirMasuk}
                 </p>
@@ -21,7 +24,11 @@ function Experience() {
                   console.log(itemm);
                   return (
                     <>
-                      <p>- {itemm}</p>
+                      <ul>
+                        <li className={style.HalyangDilakukan}>
+                          <p> {itemm}</p>
+                        </li>
+                      </ul>
                     </>
                   );
                 })}

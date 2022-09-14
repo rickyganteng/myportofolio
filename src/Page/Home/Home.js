@@ -17,15 +17,25 @@ class Home extends Component {
       <>
         <Container className={`${style.Container}`}>
           <Navbar />
-          <h2 className={style.top}>halo, I'm</h2>
-          <h1>Ricky Syahputra</h1>
-          <h4>Front End Web Developer</h4>
+          <h2 className={`${style.ColorWhite} ${style.top}`}>halo, I'm</h2>
+          <h1 className={`${style.ColorWhite} ${style.FontName}`}>
+            Ricky Syahputra
+          </h1>
+          <h4 className={style.FontJob}>Front End Web Developer</h4>
 
-          <h4 className={style.top}>About</h4>
+          <h2 className={`${style.top} ${style.Margintop} text-center`}>
+            About Me
+          </h2>
           <About />
-          <Experience />
-          <Portofolio />
-          <Contact />
+          <div className={style.Margintop}>
+            <Experience />
+          </div>
+          <div className={style.Margintop}>
+            <Portofolio />
+          </div>
+          <div className={style.Margintop}>
+            <Contact />
+          </div>
           {/* {Svg} */}
           <div className='mt-5 mb-3'>
             <Footer />

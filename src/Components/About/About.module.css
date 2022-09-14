@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&display=swap');
+
+.FontAbout {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: aliceblue;
+}
+.FontIcon {
+  font-size: 40px;
+}
