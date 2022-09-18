@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Oswald:wght@700&display=swap');
 
 .GarisBawah {
   border-right: 5px black solid;
@@ -14,7 +14,7 @@
 
 .HalyangDilakukan {
   font-family: 'Kanit', sans-serif;
-  color: rgb(20, 54, 116);
+  color: whitesmoke;
 }
 
 .FontJob {
@@ -22,6 +22,17 @@
     left,
     rgb(6, 250, 148) 0%,
     rgb(255, 255, 255) 100%
+  );
+  color: transparent;
+  background-clip: text;
+}
+.FontJobMain {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  background: -webkit-linear-gradient(
+    left,
+    rgb(6, 161, 250) 20%,
+    rgba(152, 235, 97, 1) 50% /* rgb(255, 255, 255) 100% */
   );
   color: transparent;
   background-clip: text;

@@ -6,7 +6,7 @@ function Experience() {
   console.log(ExperienceData);
   return (
     <>
-      <h1 className='text-center mb-5'>Ini Experience</h1>
+      <h1 className={`text-center mb-5 ${style.FontJobMain}`}>Experience</h1>
       {/* <h1>Heheheh © </h1> */}
       <Row>
         {ExperienceData.map((item, key) => {

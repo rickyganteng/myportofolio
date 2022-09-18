@@ -1,7 +1,7 @@
 import { Row, Col, Image } from 'react-bootstrap';
 
 // import style from './Navbar.module.css';
-import Myfoto from '../../Components/Assets/contoh.png';
+import Myfoto from '../../Components/Assets/myprofile.png';
 import style from './About.module.css';
 
 import {
@@ -65,7 +65,11 @@ function About() {
           <div className={style.Persegi1}>
             <div className={style.Persegi2}>
               <div className={style.Persegi3}>
-                <Image src={Myfoto} alt='Candi Borobudur' />
+                <Image
+                  className={style.myPhoto}
+                  src={Myfoto}
+                  alt='Candi Borobudur'
+                />
               </div>
             </div>
           </div>
