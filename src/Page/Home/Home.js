@@ -15,7 +15,7 @@ class Home extends Component {
     // console.log('weheheh');
     return (
       <>
-        <Container className={`${style.Container}`}>
+        <Container className={`${style.Container}`} fluid>
           <Navbar />
           <h2 className={`${style.ColorWhite} ${style.top}`}>halo, I'm</h2>
           <h1 className={`${style.ColorWhite} ${style.FontName}`}>
