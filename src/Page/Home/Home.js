@@ -23,17 +23,20 @@ class Home extends Component {
           </h1>
           <h4 className={style.FontJob}>Front End Web Developer</h4>
 
-          <h2 className={`${style.top} ${style.Margintop} text-center`}>
+          <h2
+            className={`${style.top} ${style.Margintop} text-center`}
+            id='about'
+          >
             About Me
           </h2>
           <About />
-          <div className={style.Margintop}>
+          <div className={style.Margintop} id='experience'>
             <Experience />
           </div>
-          <div className={style.Margintop}>
+          <div className={style.Margintop} id='portofolio'>
             <Portofolio />
           </div>
-          <div className={style.Margintop}>
+          <div className={style.Margintop} id='contact'>
             <Contact />
           </div>
           {/* {Svg} */}

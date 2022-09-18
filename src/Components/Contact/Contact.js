@@ -21,7 +21,11 @@ function Contact() {
               className='mb-3'
               controlId='exampleForm.ControlTextarea1'
             >
-              <Form.Control as='textarea' rows={3} placeholder='Email' />
+              <Form.Control
+                as='textarea'
+                rows={3}
+                placeholder='Type your message'
+              />
             </Form.Group>
             <Button variant='primary' type='submit'>
               Submit
@@ -45,19 +49,33 @@ function Contact() {
       <Row className='justify-content-md-center'>
         <Col md={1}>
           <div className={style.reSizeIcon}>
-            <SiWhatsapp />
+            <a
+              href='https://api.whatsapp.com/send/?phone=%2B6285712287514&text=Hai+Ricky+Syahputra.%0ASaya+ingin+interaksi+dengan+anda+%21&type=phone_number&app_absent=0'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <SiWhatsapp />
+            </a>
           </div>
         </Col>
         <Col md={1}>
           <div className={style.reSizeIcon}>
-            <a href='https://www.linkedin.com/in/ricky-syahputra-619723154/'>
+            <a
+              href='https://www.linkedin.com/in/ricky-syahputra-619723154/'
+              target='_blank'
+              rel='noreferrer'
+            >
               <SiLinkedin />
             </a>
           </div>
         </Col>
         <Col md={1}>
           <div className={style.reSizeIcon}>
-            <a href='https://github.com/rickyganteng'>
+            <a
+              href='https://github.com/rickyganteng'
+              target='_blank'
+              rel='noreferrer'
+            >
               <SiGithub />
             </a>
           </div>

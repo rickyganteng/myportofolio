@@ -6,6 +6,14 @@
 .top {
   margin-top: 100px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  background: -webkit-linear-gradient(
+    left,
+    rgb(252, 252, 252) 40%,
+    rgb(169, 73, 247) 50% /* rgb(255, 255, 255) 100% */
+  );
+  color: transparent;
+  background-clip: text;
 }
 .FontName {
   font-family: 'Oswald', sans-serif;
@@ -28,4 +36,8 @@
 }
 .Margintop {
   margin-top: 150px;
+}
+
+.FontJobMain {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

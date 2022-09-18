@@ -29,7 +29,7 @@ function About() {
             Front-End Web ReactJS dan sudah berjalan sekitar 1 tahun.
           </p>
           <p className={style.FontAbout}>
-            Saya saat ini juga untuk project Freelance, <br />
+            Saya saat ini juga terbuka untuk direkrut project Freelance, <br />
             Jika berkenan bisa hubungi saya lewat sini ya.
           </p>
           <p className={style.FontAbout}>Salam hangat, Ricky Syahputra</p>
