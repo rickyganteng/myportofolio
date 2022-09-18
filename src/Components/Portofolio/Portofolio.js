@@ -7,7 +7,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 // import required modules
-import { Pagination, Navigation } from 'swiper';
+import { Pagination } from 'swiper';
 
 import PortofolioData from '../../Components/Json/portofolio.json';
 // import SsComodo from '../../Components/Assets/comodo.png';
@@ -18,16 +18,26 @@ function Portofolio() {
     <>
       <h1 className='text-center mb-5'>Ini Portofolio</h1>
       <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
-        slidesPerGroup={3}
-        loop={true}
-        loopFillGroupWithBlank={true}
-        // pagination={{
-        //   clickable: true,
-        // }}
-        navigation={true}
-        modules={[Pagination, Navigation]}
+        slidesPerView={1}
+        spaceBetween={10}
+        pagination={{
+          clickable: true,
+        }}
+        breakpoints={{
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+        }}
+        modules={[Pagination]}
         className='mySwiper'
       >
         {PortofolioData.map((item, key) => {
@@ -37,7 +47,12 @@ function Portofolio() {
             <>
               <SwiperSlide>
                 <div className={style.Transition}>
-                  <Card style={{ width: '18rem' }}>
+                  <Card
+                    style={{
+                      width: '18rem',
+                      backgroundColor: 'transparent',
+                    }}
+                  >
                     <Card.Body>
                       <Card.Title>
                         <div className={style.NameWebsite}>
@@ -65,6 +80,39 @@ function Portofolio() {
           );
         })}
       </Swiper>
+      {/* <Swiper
+        slidesPerView={1}
+        spaceBetween={10}
+        pagination={{
+          clickable: true,
+        }}
+        breakpoints={{
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 5,
+            spaceBetween: 50,
+          },
+        }}
+        modules={[Pagination]}
+        className='mySwiper'
+      >
+        <SwiperSlide>Slide 1</SwiperSlide>
+        <SwiperSlide>Slide 2</SwiperSlide>
+        <SwiperSlide>Slide 3</SwiperSlide>
+        <SwiperSlide>Slide 4</SwiperSlide>
+        <SwiperSlide>Slide 5</SwiperSlide>
+        <SwiperSlide>Slide 6</SwiperSlide>
+        <SwiperSlide>Slide 7</SwiperSlide>
+        <SwiperSlide>Slide 8</SwiperSlide>
+        <SwiperSlide>Slide 9</SwiperSlide>
+      </Swiper> */}
     </>
   );
 }

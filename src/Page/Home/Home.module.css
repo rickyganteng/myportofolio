@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
 .Container {
-  background: linear-gradient(#3434cf, #bcd8fd);
+  background: linear-gradient(#000005, #bcd8fd);
 }
 .top {
   margin-top: 100px;

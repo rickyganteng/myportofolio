@@ -16,7 +16,7 @@ import {
 function About() {
   return (
     <>
-      <Row>
+      <Row md={12}>
         <Col md={7}>
           <p className={style.FontAbout}>
             {' '}
@@ -36,7 +36,7 @@ function About() {
           <p className={style.FontAbout}>
             Ini adalah beberapa teknologi yang saya gunakan baru - baru ini{' '}
           </p>
-          <Row className={style.FontIcon}>
+          <Row md={12} className={style.FontIcon}>
             <Col>
               <SiHtml5 />
             </Col>
@@ -62,7 +62,13 @@ function About() {
         </Col>
         <Col md={5}>
           heheh
-          <Image src={Myfoto} alt='Candi Borobudur' />
+          <div className={style.Persegi1}>
+            <div className={style.Persegi2}>
+              <div className={style.Persegi3}>
+                <Image src={Myfoto} alt='Candi Borobudur' />
+              </div>
+            </div>
+          </div>
         </Col>
       </Row>
     </>

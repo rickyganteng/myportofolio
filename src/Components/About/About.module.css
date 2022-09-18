@@ -7,4 +7,52 @@
 }
 .FontIcon {
   font-size: 40px;
+  color: rgb(146, 183, 216);
+}
+/* <p className='border: 2px dashed #ee3f10; padding: 15px'> */
+
+.Persegi1 {
+  display: inherit;
+  z-index: 1000;
+  /* -moz-transform: rotate(150deg); */
+  background-color: aqua;
+  -webkit-transform: rotate(2deg);
+  border-style: solid;
+  border-radius: 10%;
+  width: 300px;
+  height: 300px;
+
+  padding-top: 3px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+}
+
+.Persegi2 {
+  z-index: 1000;
+  /* -moz-transform: rotate(150deg); */
+  background-color: blue;
+  -webkit-transform: rotate(2deg);
+  border-style: solid;
+  border-radius: 10%;
+  width: 300px;
+  height: 300px;
+
+  padding-top: 3px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+}
+
+.Persegi3 {
+  z-index: 1000;
+  /* -moz-transform: rotate(150deg); */
+  background-color: blueviolet;
+  -webkit-transform: rotate(2deg);
+  border-style: solid;
+  border-radius: 10%;
+  width: 300px;
+  height: 300px;
+
+  padding-top: 3px;
+  padding-bottom: 20px;
+  padding-left: 5px;
 }
